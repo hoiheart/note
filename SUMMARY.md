@@ -8,7 +8,7 @@
 
 ## javascript
 
-* [기초](javascript/undefined.md)
+* [Basic](javascript/undefined.md)
 * [문 및 선언](javascript/undefined-2.md)
 
 ## react
