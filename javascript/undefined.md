@@ -1,16 +1,30 @@
 # 기초
 
+### 주요 용어
+
+* 변수: 이름이 붙은 값, 언제든지 바뀔 수 있음
+* 상수: 변하지 않는 값
+* 식별자 : 변수와 상수, 함수 이름
+* 리터럴 : 값을 프로그램 안에서 직접 지정하는 
+* 프로퍼티 : 객체에서 문자열 혹은 심볼로 정의된 이름와 any type의 값으로 구성된 데이터
+* 메소드 : 객체에서 기능 역할을 하는 값 \(ex: function\)
+
 ### 타입
 
-자바스크립트의 타입 구조도는 다음과 같다.
+자바스크립트의 타입 구조는 다음과 같다.
 
-* String \(primitive\)
-* Number \(primitive\)
-* Boolean \(primitive\)
-* Null \(primitive\)
-* Undefined \(primitive\)
-* Symbol \(primitive\)
-* Object _**\(reference\)**_
+#### 원시 타입
+
+* String
+* Number
+* Boolean
+* Null
+* Undefined
+* Symbol
+
+#### 객체 타입
+
+* Object
   * Function
   * Array
   * Date
@@ -18,21 +32,51 @@
   * Map, WeakMap
   * Set, WeakSet
 
-### 변수
+### 숫자
 
-var, let, const 를 사용하여 값을 선언하며, 값을 프로그램 안에서 직접 지정하는 방식을 리터럴이라 한다.
+자바스크립트에서 숫자는 IEEE-764 부동소수점 숫자 형식을 사용 \(더블\)
 
-```javascript
-var obj = {
-    name: "animation",
-    "slide-up": true,
-    callback: function() {
-        return 'callback';
-    }
-}
-```
+#### 주요 Number 객체 \(임시 객체로 호출 즉시 파괴\)
 
-* 식별자 : 상수, 변수, 함수 등의 이름
-* 프로퍼티 : 객체의 키와 값으로 구성된 데이터
-* 메소드 : 객체의 기능 역할을 하는 값 \(ex: function\)
+* EPSILON: Number 형으로 표현될 수 있는 1과 1보다 큰 값 중에서 가장 작은 값의 차
+* MAX\_SAFE\_INTEGER: 표현할 수 있는 가장 큰 정수
+* MAX\_VALUE: 표현할 수 있는 가장 큰 숫자
+* MIN\_SAFE\_INTEGER: 표현할 수 있는 가장 작은 정수
+* MAX\_VALUE: 표현할 수 있는 가장 작은 숫자
+
+### 문자열
+
+UNICODE 텍스트로 언어 및 심볼 코드 포인트를 포함
+
+### 불리언
+
+true, false 두가지 값을 가진 데이터
+
+### 심볼
+
+항상 유일하며 다른 어떤 심볼과도 일치하지 않음
+
+### null, undefined
+
+undefined는 자바스크립트 자체에서 사용하도록 하고 프로그래머는 null 사용을 권
+
+### 객체
+
+객체의 본질은 컨테이너이며 내용물이 바뀐다고 컨테이너가 바뀌진 않음
+
+#### 배열
+
+순차적인 숫자 키를 가지는 항상 순서가 있는 리스트  
+C언어의 indexed array, 동적 배열, linked list를 혼합한 구현체
+
+* 크기가 고정되지 않음
+* 테이터 타입을 가리지 않음
+* 인덱스는 0으로 시작
+
+#### Date
+
+* getMonth\(\)는 1을 더해야 함 \(0부터 시작\)
+* getDay\(\)의 0은 일요일
+
+
 
