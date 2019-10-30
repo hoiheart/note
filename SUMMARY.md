@@ -12,6 +12,10 @@
 * [문 및 선언](javascript/undefined-2.md)
 * [호이스팅, 스코프](javascript/undefined-3.md)
 
+## TYPESCRIPT
+
+* [개요 및 기본 타입](typescript/undefined.md)
+
 ## react
 
 ## vue
