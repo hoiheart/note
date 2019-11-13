@@ -1,5 +1,7 @@
 # Note
 
+[![GitBook\]](https://aleen42.github.io/badges/src/gitbook_2.svg)](https://hoiheart.gitbook.io/note/)
+
 저는 웹 프론트엔드 개발자로 일하고 있습니다.
 
 자고 일어나면 또 새로운 영역과 기술이 나와있는 이 시대가 재미있기도 하지만 알고 있어야 할 범위가 너무 넓어져 때때론 버거운 것도 사실입니다.
