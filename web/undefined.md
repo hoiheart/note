@@ -76,3 +76,12 @@ React나 Vue 등의 자바스크립트 라이브러리는 html 문법을 자동�
 
 > 웹사이트에서 임의의 HTML을 동적으로 렌더링하려면 [XSS 취약점](https://en.wikipedia.org/wiki/Cross-site_scripting)으로 쉽게 이어질 수 있으므로 매우 위험할 가능성이 있습니다. 신뢰할 수 있는 콘텐츠에서만 HTML 보간을 사용하고 사용자가 제공한 콘텐츠에서는 **절대** 사용하면 안됩니다.
 
+
+
+### CSRF \(Cross-Site Request Forgery\)
+
+세션 및 쿠키를 통한 사용자의 권한을 이용해 해당 웹사이트를 공격하는 행위
+
+* Referrer 검증, Security Token 사용 등 추가 작업을 통한 방어
+* Cookie 설정을 SameSite=Lax 이상으로 설정 \(Privacy 침해에도 대응 효과\)
+
