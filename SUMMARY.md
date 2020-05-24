@@ -14,14 +14,6 @@
 
 * [개요 및 기본 타입](typescript/undefined.md)
 
-## react
-
-## vue
-
-## CSS
-
-## HTML
-
 ## web
 
 * [보안](web/undefined.md)

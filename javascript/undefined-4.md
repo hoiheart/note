@@ -1,6 +1,49 @@
 # 자료구조와 알고리즘
 
-### 빅오 표기법
+### 자료 구조
+
+#### List
+
+순서가 있는 집합
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#xAD6C;</th>
+      <th style="text-align:left"></th>
+      <th style="text-align:left">&#xC7A5;&#xC810;</th>
+      <th style="text-align:left">&#xB2E8;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Array List</td>
+      <td style="text-align:left">&#xC804;&#xCCB4; &#xAC2F;&#xC218;&#xAC00; &#xC815;&#xD574;&#xC838; &#xC788;&#xC74C;</td>
+      <td
+      style="text-align:left">&#xC811;&#xADFC;&#xC774; &#xBE60;</td>
+        <td style="text-align:left">
+          <p>&#xB3D9;&#xC801;&#xC778; &#xBA54;&#xBAA8;&#xB9AC; &#xD560;</p>
+          <p>&#xB370;&#xC774;&#xD130; &#xBCC0;&#xD615;&#xC5D0; &#xBD88;&#xB9AC;</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Linked List</td>
+      <td style="text-align:left">&#xB2E4;&#xC74C; &#xAC12;&#xC758; &#xC8FC;&#xC18C;&#xB97C; &#xD3EC;&#xC778;&#xD130;&#xB85C;
+        &#xC5F0;</td>
+      <td style="text-align:left">
+        <p>&#xD544;&#xC694;&#xD55C; &#xB9CC;&#xD07C;&#xB9CC; &#xBA54;&#xBAA8;&#xB9AC;
+          &#xD560;&#xB2F9;</p>
+        <p>&#xC790;&#xB8CC;&#xC758; &#xBCC0;&#xD615;&#xC5D0; &#xC720;</p>
+      </td>
+      <td style="text-align:left">
+        <p>&#xD3EC;&#xC778;&#xD130;&#xB85C; &#xC778;&#xD55C; &#xC800;&#xC7A5; &#xACF5;&#xAC04;
+          &#xB0AD;&#xBE44;</p>
+        <p>&#xD2B9;&#xC815; &#xC790;&#xB8CC; &#xD0D0;&#xC0C9; &#xC2DC;&#xAC04;&#xC774;
+          &#xB9CE;&#xC774; &#xC18C;&#xBAA8;</p>
+      </td>
+    </tr>
+  </tbody>
+</table>### 빅오 표기법
 
 빅오 표기법은 알고리즘의 최악의 경우 복잡도를 측정한다.  
 "n이 무한으로 접근할 때 무슨 일이 일어날까"를 고려해야 한다.

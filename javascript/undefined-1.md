@@ -78,7 +78,7 @@ var obj = {
       <td style="text-align:left">@7001</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">&#xB370;&#xC774;&#xD130; &#xC601;</td>
       <td style="text-align:left">5002</td>
       <td style="text-align:left">3</td>
     </tr>
@@ -94,4 +94,8 @@ var obj = {
 </table>{% hint style="info" %}
 참조형 데이터를 복사한 객체의 프로퍼티는 @7001 데이터를 같이 바라보게 되므로 복사한 객체의 프로퍼티 변경시 원본 객체의 프로퍼티도 변경된다.
 {% endhint %}
+
+### V8 메모리 구조
+
+{% embed url="https://ui.toast.com/weekly-pick/ko\_20200228/" %}
 
