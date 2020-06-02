@@ -43,7 +43,9 @@ var a = 'abc'
       <td style="text-align:left">abc</td>
     </tr>
   </tbody>
-</table>{% hint style="info" %}
+</table>
+
+{% hint style="info" %}
 별도의 공간에 데이터를 저장하여 같은 데이터 값을 공유하거나 데이터 변경에 따라 유연하게 공간 변경이 가능하도록 한다.
 {% endhint %}
 
@@ -91,7 +93,9 @@ var obj = {
       </td>
     </tr>
   </tbody>
-</table>{% hint style="info" %}
+</table>
+
+{% hint style="info" %}
 참조형 데이터를 복사한 객체의 프로퍼티는 @7001 데이터를 같이 바라보게 되므로 복사한 객체의 프로퍼티 변경시 원본 객체의 프로퍼티도 변경된다.
 {% endhint %}
 
